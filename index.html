@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORA CIENTIFICA</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="display">
+          <input type="text" id="result" readonly>
+        </div>
+        <div class="buttons">
+          <button onclick="clearResult()">C</button>
+          <button onclick="deleteLast()">←</button>
+          <button onclick="calculate('Math.PI')">π</button>
+          <button onclick="calculate('Math.sqrt(')">√</button>
+          <button onclick="calculate('(')"> ( </button>
+          <button onclick="calculate(')')"> ) </button>
+          <button onclick="calculate('Math.sin(')">sin</button>
+          <button onclick="calculate('Math.cos(')">cos</button>
+          <button onclick="calculate('Math.tan(')">tan</button>
+          <button onclick="calculate('**2')">x²</button>
+          <button onclick="calculate('**3')">x³</button>
+          <button onclick="calculate('**')">x^y</button>
+          <button onclick="calculate('Math.log10(')">log</button>
+          <button onclick="calculate('Math.exp(')">e^x</button>
+          <button onclick="calculate('Math.log(')">ln</button>
+          <button onclick="calculate('7')">7</button>
+          <button onclick="calculate('8')">8</button> 
+          <button onclick="calculate('9')">9</button>
+          <button onclick="calculate('*')">x</button>
+          <button onclick="calculate('/')">÷</button>
+          <button onclick="calculate('4')">4</button>
+          <button onclick="calculate('5')">5</button>
+          <button onclick="calculate('6')">6</button>
+          <button onclick="calculate('+')">+</button>
+          <button onclick="calculate('-')">-</button>
+          <button onclick="calculate('1')">1</button>
+          <button onclick="calculate('2')">2</button>
+          <button onclick="calculate('3')">3</button>
+          <button onclick="calculate('Math.atan(')">tan⁻¹</button>
+          <button onclick="calculate('Math.abs(')">|x|</button>
+          <button onclick="calculate('0')">0</button>
+          <button onclick="calculate('.')">.</button>
+          <button onclick="calculate('*Math.PI/180')">deg to rad</button>
+          <button onclick="calculate('*180/Math.PI')">rad to deg</button>
+          <button onclick="calculateResult('')">=</button>
+        </div>
+      </div>
+    
+      <!-- Este es un comentario en HTML -->
+      <script src="form.js"></script>
+
+
+    </body>
+    </html>
